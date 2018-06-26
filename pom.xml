@@ -7,6 +7,24 @@
     <artifactId>cas-overlay</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
+	
+	<dependencies>
+        <dependency>
+        <groupId>org.apereo.cas</groupId>
+        <artifactId>cas-server-support-json-service-registry</artifactId>
+        <version>${cas.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apereo.cas</groupId>
+        <artifactId>cas-server-support-jdbc</artifactId>
+        <version>${cas.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apereo.cas</groupId>
+        <artifactId>cas-server-support-jdbc-drivers</artifactId>
+        <version>${cas.version}</version>
+    </dependency>
+    </dependencies>
 
     <build>
         <plugins>
