@@ -1,4 +1,4 @@
-package com.eli.cas;
+package com.eli.com;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CasApplicationTests {
+public class CasSecuredAppApplicationIntegrationTest {
 
 	@Test
 	public void contextLoads() {
