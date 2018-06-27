@@ -1,8 +1,8 @@
 ### springboot 集成 cas
 
-####生成证书 
+#### 生成证书 
 
-#####输入的姓名需要和 服务器地址一致，比如 demo.eli.com 其他的选项随便填写
+##### 输入的姓名需要和 服务器地址一致，比如 demo.eli.com 其他的选项随便填写
 ~~~
 keytool -genkey -keyalg RSA -alias thekeystore -keystore "D:\hello world\springBoot-cas\cas-service\src\main\resources\thekeystore" -storepass changeit -validity 360 -keysize 2048
 ~~~
